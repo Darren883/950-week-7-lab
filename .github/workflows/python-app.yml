@@ -21,4 +21,4 @@ jobs:
         
     - name: Run tests
       run: |
-        python -m unittest testfile
+        python -m unittest unittest test_calculator.py
